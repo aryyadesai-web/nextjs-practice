@@ -1,0 +1,111 @@
+p(AuB)=p(A)+P(B)-P(AnB) addition rule
+P(AuB)=P(A)+P(B)    Mutally exclusive
+P(AnB)=P(A)-P(B)    Multiplication Rule
+
+in a survery of 100 customers 40 use mobile app 30 customers use website and 10 use both find the proablilty that teh randomly selected the customers use the app or website 
+ans--> 0.4+0.3-0.1=0.6      60%
+
+a dice is rolled find the proablity of getting 2 or 5
+ans--> 1/6+1/6=2/6==1/3     33.333%
+
+among 200 visitors 70 clciked the product 50 subscriped and 20 did the both what is the proablitity that the visitors did atleast one of the sections 
+ans--> 70/200+50/200-20/200=100/200 ==1/2 ==0.5     50%
+
+p(AuB)=p(A)+P(B)-P(AnB) addition rule
+P(AuB)=P(A)+P(B)    Mutally exclusive
+P(AnB)=P(A)-P(B)    Multiplication Rule
+
+in a survery of 100 customers 40 use mobile app 30 customers use website and 10 use both find the proablilty that teh randomly selected the customers use the app or website 
+ans--> 0.4+0.3-0.1=0.6      60%
+
+a dice is rolled find the proablity of getting 2 or 5
+ans--> 1/6+1/6=2/6==1/3     33.333%
+
+among 200 visitors 70 clciked the product 50 subscriped and 20 did the both what is the proablitity that the visitors did atleast one of the sections 
+ans--> 70/200+50/200-20/200=100/200 ==1/2 ==0.5     50%
+
+
+\[
+\boxed{f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}}
+\]
+
+p(AuB)=p(A)+P(B)-P(AnB) addition rule
+P(AuB)=P(A)+P(B)    Mutally exclusive
+P(AnB)=P(A)-P(B)    Multiplication Rule
+
+in a survery of 100 customers 40 use mobile app 30 customers use website and 10 use both find the proablilty that teh randomly selected the customers use the app or website 
+ans--> 0.4+0.3-0.1=0.6      60%
+
+a dice is rolled find the proablity of getting 2 or 5
+ans--> 1/6+1/6=2/6==1/3     33.333%
+
+among 200 visitors 70 clciked the product 50 subscriped and 20 did the both what is the proablitity that the visitors did atleast one of the sections 
+ans--> 70/200+50/200-20/200=100/200 ==1/2 ==0.5     50%
+
+
+\[
+\boxed{f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}}
+\]
+\(x\) = observed value
+\(\mu\) = mean
+\(\sigma\) = standard deviation
+\(\sigma^2\) = variance
+\(e\approx 2.71828\)
+\(\pi\approx 3.14159\)
+
+central limit theorem: when independent random variables are added, their properly normalised sum tends towards normal distribution 
+
+## 1. Poisson Distribution Formula
+\\[ \boxed{P(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}} \\]
+Where:
+- \\(\lambda\\) = Mean number of occurrences
+- \\(x\\) = Number of occurrences
+- \\(e \approx 2.71828\\)
+- \\(x!\\) = Factorial of \\(x\\)
+
+## 2. Normal Distribution Formula
+\\[ \boxed{f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}} \\]
+Where:
+- \\(\mu\\) = Mean
+- \\(\sigma\\) = Standard deviation
+- \\(\sigma^2\\) = Variance
+- \\(x\\) = Observed value
+Remember: Poisson is used to calculate the probability of a number of events occurring in a fixed interval, while normal distribution describes continuous data following a bell-shaped curve.
+
+
+Hyothesis Test
+Null Hyothesis and Alternative Hyothesis
+
+T-Test: when sample size is less than 30
+1-tail Test         mu=0
+2-tail Test         mu!=0
+upper tail Test     mu>0
+lower tail Test     mu<0
+
+P-Test (Hypothesis Testing) - Quick Notes
+H₀ and H₁ are mutually exclusive: If one is true, the other is false.
+Focuses on a single test statistic: A value that summarizes the sample data.
+Calculate the test statistic: (e.g., Z, t, χ², F) using sample data.
+Apply the decision rule:
+If p-value ≤ α → Reject H₀
+If p-value > α → Fail to reject H₀
+Steps
+State H₀ and H₁
+Calculate test statistic
+Find p-value/critical value
+Apply decision rule
+Draw conclusion
+
+mean xbar=x1+x2+x3...xn/n
+std deviation= sigma=sqrt((x1-x^2)+(x2-x^2).....(xn-x^2)/n-1)
+t-test= t=xˉ-m^0/sigma*sqrt(n)
+
+How to calculate Testings
+1. Frame the null and alternative Hypothesis
+2. Frame the D.f and level of significance
+3. Check Formula
+4. Compare the test statistic and proablilty value
+   (P>0.5)(Reject the null Hypothesis)  (P<0.5)(Accept the null Hyothesis)
+5. Final output
+
+     
